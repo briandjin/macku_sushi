@@ -5,6 +5,7 @@
   z-index: 100;
 
   .nav-btn__wrapper {
+    transition: all 1s ease-out;
     background: rgb(47, 46, 46);
     display: flex;
     justify-content: space-evenly;
@@ -66,15 +67,30 @@
   stroke-width: 5.5;
   stroke-linecap: round;
 }
-.ham1 .top {
-  stroke-dasharray: 40 139;
+
+.ham4 .top {
+  stroke-dasharray: 40 121;
 }
-.ham1 .bottom {
-  stroke-dasharray: 40 180;
+.ham4 .bottom {
+  stroke-dasharray: 40 121;
 }
-.ham1.active .top {
-  stroke-dashoffset: -98px;
+.ham4.active .top {
+  stroke-dashoffset: -68px;
 }
-.ham1.active .bottom {
-  stroke-dashoffset: -138px;
+.ham4.active .bottom {
+  stroke-dashoffset: -68px;
+}
+
+.flip-enter-active {
+  transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53); //ease-in-quad
+}
+
+.flip-leave-active {
+  transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94); //ease-out-quad
+}
+
+.flip-enter,
+.flip-leave-to {
+  transform: scaleY(0) translateZ(0);
+  opacity: 0;
 }
