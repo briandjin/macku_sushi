@@ -40,6 +40,9 @@
     position: relative;
     background-image: url(../../assets/image_4.jpg);
   }
+  .img-5 {
+    background-image: url(../../assets/image_6.jpg);
+  }
 
   .border {
     display: flex;
@@ -56,11 +59,14 @@
   .logo {
     position: absolute;
     left: 0;
-    top: 33%;
+    top: 38%;
     width: 100%;
     text-align: center;
     color: #000;
     z-index: 2;
+    @media (min-width: 768px) {
+      top: 33%;
+    }
   }
   .logo__text {
     font-family: futura-lt-w01-light, sans-serif;
@@ -74,6 +80,8 @@
     z-index: 9;
     color: white;
     background-color: #2f2e2e;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 
     @media (min-width: 768px) {
       padding-left: 0;
@@ -89,6 +97,50 @@
       max-width: 450px;
       width: 100%;
       margin: 15px auto;
+    }
+  }
+
+  .section__row {
+    display: flex;
+    flex-direction: column;
+    
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+
+    .section {
+      flex: 1;
+
+      &.map-container {
+        padding: 50px;
+        text-align: center;
+
+        @media (max-width: 767px) {
+          border-top: none;
+        }
+        
+      }
+      &.hour-container {
+        padding-left: 50px;
+        
+        @media (max-width: 767px) {
+          border-bottom: none;
+        }
+
+        .hour__headline {
+          text-align: center;
+          border-bottom: 1px solid white;
+        }
+        
+        .hours {
+          text-align: center;
+        }
+      }
+
+      img {
+        max-width: 500px;
+        width: 100%;
+      }
     }
   }
 

@@ -73,6 +73,23 @@
         </span>
       </div>
     </div>
+
+    <div class="section__row">
+      <div class="section hour-container">
+        <h3 class="hour__headline">HOURS</h3>
+        <div class="hours">
+          <p>SUN-THU 5PM - 10PM</p>
+          <p>FRI-SAT 5PM - 11PM</p>
+          <p>CLOSED ON TUESDAYS</p>
+        </div>
+      </div>
+      <div class="section map-container">
+        <img src="../../assets/map.png" alt="">
+      </div>
+    </div>
+
+
+    <div class="home__img img-5" />
   </div>
 </template>
 

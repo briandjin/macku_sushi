@@ -27,6 +27,12 @@
     font-size: 15px;
     font-weight: 400;
     font-family: futura-lt-w01-light, sans-serif;
+    border-bottom: 1px solid white;
+    border-top: none;
+
+    @media (min-width: 768px) {
+      border-top: 1px solid white;
+    }
 
     &:hover {
       cursor: pointer;
@@ -82,11 +88,11 @@
 }
 
 .flip-enter-active {
-  transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53); //ease-in-quad
+  transition: all 0.1s cubic-bezier(0.55, 0.085, 0.68, 0.53); //ease-in-quad
 }
 
 .flip-leave-active {
-  transition: all 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94); //ease-out-quad
+  transition: all 0.15s cubic-bezier(0.25, 0.46, 0.45, 0.94); //ease-out-quad
 }
 
 .flip-enter,
