@@ -9,9 +9,9 @@
         <a href="tel:(773)880-8012">773.880.8012</a>
       </div>
       <div class="icons">
-        <img src="https://static.wixstatic.com/media/e1a85976534f42c1a09d3bff23646ba2.png" alt="">
-        <img src="https://static.wixstatic.com/media/e1a85976534f42c1a09d3bff23646ba2.png" alt="">
-        <img src="https://static.wixstatic.com/media/e1a85976534f42c1a09d3bff23646ba2.png" alt="">
+        <img src="https://static.wixstatic.com/media/e1a85976534f42c1a09d3bff23646ba2.png" alt />
+        <img src="https://static.wixstatic.com/media/e1a85976534f42c1a09d3bff23646ba2.png" alt />
+        <img src="https://static.wixstatic.com/media/e1a85976534f42c1a09d3bff23646ba2.png" alt />
       </div>
     </footer>
   </div>

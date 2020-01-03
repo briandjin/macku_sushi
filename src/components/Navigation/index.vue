@@ -3,7 +3,7 @@
     <transition name="flip">
       <div class="nav-btn__wrapper" v-show="showMobileMenu">
         <router-link class="nav__btn" to="/">HOME</router-link>
-        <router-link class="nav__btn" to="/about">MENU</router-link>
+        <router-link class="nav__btn" to="/menu">MENU</router-link>
         <a
           target="_blank"
           class="nav__btn"
@@ -12,7 +12,7 @@
           ONLINE ORDERING
         </a>
         <router-link class="nav__btn" to="/about">WHISKY</router-link>
-        <router-link class="nav__btn" to="/about">GALLERY</router-link>
+        <router-link class="nav__btn" to="/gallery">GALLERY</router-link>
         <router-link class="nav__btn" to="/about">PRESS</router-link>
       </div>
     </transition>
