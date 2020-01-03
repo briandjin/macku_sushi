@@ -52,8 +52,16 @@
     background: transparent;
     color: #fff;
     padding: 18px;
-    font-size: 25px;
+    font-size: 18px;
     letter-spacing: 10px;
+    
+    @media (min-width: 450px) {
+      font-size: 27px;
+    }
+
+    @media (min-width: 768px) {
+      font-size: 36px;
+    }
   }
 
   .logo {
@@ -129,7 +137,6 @@
 
         .hour__headline {
           text-align: center;
-          border-bottom: 1px solid white;
         }
         
         .hours {

@@ -10,6 +10,8 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
 
     @media (min-width: 768px) {
       flex-direction: row;
@@ -27,12 +29,6 @@
     font-size: 15px;
     font-weight: 400;
     font-family: futura-lt-w01-light, sans-serif;
-    border-bottom: 1px solid white;
-    border-top: none;
-
-    @media (min-width: 768px) {
-      border-top: 1px solid white;
-    }
 
     &:hover {
       cursor: pointer;
